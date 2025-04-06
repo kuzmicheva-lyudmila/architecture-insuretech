@@ -1,0 +1,191 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                 MESSAGE
+8m10s       Normal    Scheduled                      pod/test-app-7c4bd87f8b-7mdbs          Successfully assigned default/test-app-7c4bd87f8b-7mdbs to minikube
+26m         Normal    Scheduled                      pod/test-app-7c4bd87f8b-fwpnq          Successfully assigned default/test-app-7c4bd87f8b-fwpnq to minikube
+15m         Normal    Scheduled                      pod/test-app-7c4bd87f8b-7jcdw          Successfully assigned default/test-app-7c4bd87f8b-7jcdw to minikube
+7m10s       Normal    Scheduled                      pod/test-app-76965d5454-dfbq8          Successfully assigned default/test-app-76965d5454-dfbq8 to minikube
+7m10s       Normal    Scheduled                      pod/test-app-76965d5454-wt57p          Successfully assigned default/test-app-76965d5454-wt57p to minikube
+167m        Normal    Starting                       node/minikube                          
+6m55s       Normal    Scheduled                      pod/test-app-76965d5454-xwdxf          Successfully assigned default/test-app-76965d5454-xwdxf to minikube
+33m         Normal    Scheduled                      pod/test-app-59ccc59d8d-hznqj          Successfully assigned default/test-app-59ccc59d8d-hznqj to minikube
+12m         Normal    Scheduled                      pod/test-app-7c4bd87f8b-rqt4q          Successfully assigned default/test-app-7c4bd87f8b-rqt4q to minikube
+6m55s       Normal    Scheduled                      pod/test-app-76965d5454-jkj68          Successfully assigned default/test-app-76965d5454-jkj68 to minikube
+7m49s       Normal    Scheduled                      pod/test-app-76965d5454-76xcp          Successfully assigned default/test-app-76965d5454-76xcp to minikube
+18m         Normal    Scheduled                      pod/test-app-7c4bd87f8b-q8rv8          Successfully assigned default/test-app-7c4bd87f8b-q8rv8 to minikube
+22m         Normal    Scheduled                      pod/test-app-7c4bd87f8b-7bgxt          Successfully assigned default/test-app-7c4bd87f8b-7bgxt to minikube
+48m         Normal    Starting                       node/minikube                          
+31m         Normal    Scheduled                      pod/test-app-59ccc59d8d-f9hdr          Successfully assigned default/test-app-59ccc59d8d-f9hdr to minikube
+45m         Normal    Scheduled                      pod/test-app-7c8b4b4857-6v89v          Successfully assigned default/test-app-7c8b4b4857-6v89v to minikube
+3m10s       Normal    Scheduled                      pod/test-app-76965d5454-lm2lb          Successfully assigned default/test-app-76965d5454-lm2lb to minikube
+7m10s       Normal    Scheduled                      pod/test-app-76965d5454-v5g5t          Successfully assigned default/test-app-76965d5454-v5g5t to minikube
+167m        Normal    NodeHasSufficientPID           node/minikube                          Node minikube status is now: NodeHasSufficientPID
+167m        Normal    NodeHasNoDiskPressure          node/minikube                          Node minikube status is now: NodeHasNoDiskPressure
+167m        Normal    NodeAllocatableEnforced        node/minikube                          Updated Node Allocatable limit across pods
+167m        Normal    Starting                       node/minikube                          Starting kubelet.
+167m        Normal    NodeHasSufficientMemory        node/minikube                          Node minikube status is now: NodeHasSufficientMemory
+167m        Normal    SandboxChanged                 pod/test-app-74c7c4c4f5-xzb87          Pod sandbox changed, it will be killed and re-created.
+167m        Normal    Pulling                        pod/test-app-74c7c4c4f5-xzb87          Pulling image "shestera/scaletestapp"
+167m        Normal    Created                        pod/test-app-74c7c4c4f5-xzb87          Created container: test-app
+167m        Normal    Started                        pod/test-app-74c7c4c4f5-xzb87          Started container test-app
+167m        Normal    Pulled                         pod/test-app-74c7c4c4f5-xzb87          Successfully pulled image "shestera/scaletestapp" in 1.502s (1.502s including waiting). Image size: 10412737 bytes.
+167m        Normal    RegisteredNode                 node/minikube                          Node minikube event: Registered Node minikube in Controller
+166m        Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/test-app-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+166m        Warning   FailedGetResourceMetric        horizontalpodautoscaler/test-app-hpa   failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+48m         Normal    NodeAllocatableEnforced        node/minikube                          Updated Node Allocatable limit across pods
+48m         Normal    NodeHasSufficientPID           node/minikube                          Node minikube status is now: NodeHasSufficientPID
+48m         Normal    Starting                       node/minikube                          Starting kubelet.
+48m         Normal    NodeHasSufficientMemory        node/minikube                          Node minikube status is now: NodeHasSufficientMemory
+48m         Normal    NodeHasNoDiskPressure          node/minikube                          Node minikube status is now: NodeHasNoDiskPressure
+48m         Warning   Rebooted                       node/minikube                          Node minikube has been rebooted, boot id: ab1f5fce-a0fa-47fc-b550-5cb01c95a91d
+48m         Normal    Pulling                        pod/test-app-74c7c4c4f5-xzb87          Pulling image "shestera/scaletestapp"
+48m         Normal    SandboxChanged                 pod/test-app-74c7c4c4f5-xzb87          Pod sandbox changed, it will be killed and re-created.
+48m         Normal    Started                        pod/test-app-74c7c4c4f5-xzb87          Started container test-app
+48m         Normal    Pulled                         pod/test-app-74c7c4c4f5-xzb87          Successfully pulled image "shestera/scaletestapp" in 1.689s (1.689s including waiting). Image size: 10412737 bytes.
+48m         Normal    Created                        pod/test-app-74c7c4c4f5-xzb87          Created container: test-app
+48m         Normal    RegisteredNode                 node/minikube                          Node minikube event: Registered Node minikube in Controller
+47m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/test-app-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+47m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/test-app-hpa   failed to get memory utilization: unable to get metrics for resource memory: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+45m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c8b4b4857 from 0 to 1
+45m         Normal    SuccessfulCreate               replicaset/test-app-7c8b4b4857         Created pod: test-app-7c8b4b4857-6v89v
+42m         Normal    Pulling                        pod/test-app-7c8b4b4857-6v89v          Pulling image "pod-info-app:latest"
+42m         Warning   Failed                         pod/test-app-7c8b4b4857-6v89v          Error: ErrImagePull
+42m         Warning   Failed                         pod/test-app-7c8b4b4857-6v89v          Failed to pull image "pod-info-app:latest": Error response from daemon: pull access denied for pod-info-app, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+35m         Normal    BackOff                        pod/test-app-7c8b4b4857-6v89v          Back-off pulling image "pod-info-app:latest"
+35m         Warning   Failed                         pod/test-app-7c8b4b4857-6v89v          Error: ImagePullBackOff
+33m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-59ccc59d8d from 0 to 1
+33m         Normal    SuccessfulCreate               replicaset/test-app-59ccc59d8d         Created pod: test-app-59ccc59d8d-hznqj
+33m         Normal    SuccessfulDelete               replicaset/test-app-7c8b4b4857         Deleted pod: test-app-7c8b4b4857-6v89v
+33m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled down replica set test-app-7c8b4b4857 from 1 to 0
+33m         Normal    Pulled                         pod/test-app-59ccc59d8d-hznqj          Successfully pulled image "lkuzmicheva/pod-info-app" in 15.774s (15.774s including waiting). Image size: 347424850 bytes.
+33m         Normal    Pulled                         pod/test-app-59ccc59d8d-hznqj          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.315s (1.315s including waiting). Image size: 347424850 bytes.
+32m         Normal    Pulled                         pod/test-app-59ccc59d8d-hznqj          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.237s (1.237s including waiting). Image size: 347424850 bytes.
+32m         Normal    Pulling                        pod/test-app-59ccc59d8d-hznqj          Pulling image "lkuzmicheva/pod-info-app"
+32m         Normal    Created                        pod/test-app-59ccc59d8d-hznqj          Created container: test-app
+32m         Normal    Started                        pod/test-app-59ccc59d8d-hznqj          Started container test-app
+32m         Normal    Pulled                         pod/test-app-59ccc59d8d-hznqj          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.495s (1.495s including waiting). Image size: 347424850 bytes.
+32m         Normal    Killing                        pod/test-app-74c7c4c4f5-xzb87          Stopping container test-app
+32m         Warning   BackOff                        pod/test-app-59ccc59d8d-hznqj          Back-off restarting failed container test-app in pod test-app-59ccc59d8d-hznqj_default(341168ba-eb4c-4889-9b63-9508c12e6a8c)
+31m         Warning   FailedGetScale                 horizontalpodautoscaler/test-app-hpa   deployments/scale.apps "test-app" not found
+31m         Normal    SuccessfulCreate               replicaset/test-app-59ccc59d8d         Created pod: test-app-59ccc59d8d-f9hdr
+31m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-59ccc59d8d from 0 to 1
+31m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.32s (1.32s including waiting). Image size: 347424850 bytes.
+31m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.235s (1.235s including waiting). Image size: 347424850 bytes.
+31m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.407s (1.407s including waiting). Image size: 347424850 bytes.
+30m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.312s (1.312s including waiting). Image size: 347424850 bytes.
+30m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.589s (1.589s including waiting). Image size: 347424850 bytes.
+28m         Normal    Pulling                        pod/test-app-59ccc59d8d-f9hdr          Pulling image "lkuzmicheva/pod-info-app"
+28m         Normal    Pulled                         pod/test-app-59ccc59d8d-f9hdr          Successfully pulled image "lkuzmicheva/pod-info-app" in 2.371s (2.371s including waiting). Image size: 347424850 bytes.
+28m         Normal    Created                        pod/test-app-59ccc59d8d-f9hdr          Created container: test-app
+28m         Normal    Started                        pod/test-app-59ccc59d8d-f9hdr          Started container test-app
+26m         Warning   BackOff                        pod/test-app-59ccc59d8d-f9hdr          Back-off restarting failed container test-app in pod test-app-59ccc59d8d-f9hdr_default(801f3470-0b1d-4b60-8f64-6c3e2e78a50d)
+26m         Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-fwpnq
+26m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 0 to 1
+26m         Normal    Pulling                        pod/test-app-7c4bd87f8b-fwpnq          Pulling image "lkuzmicheva/pod-info-app"
+25m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled down replica set test-app-59ccc59d8d from 1 to 0
+25m         Normal    Pulled                         pod/test-app-7c4bd87f8b-fwpnq          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.61s (1.61s including waiting). Image size: 347424850 bytes.
+25m         Normal    Created                        pod/test-app-7c4bd87f8b-fwpnq          Created container: test-app
+25m         Normal    Started                        pod/test-app-7c4bd87f8b-fwpnq          Started container test-app
+25m         Normal    SuccessfulDelete               replicaset/test-app-59ccc59d8d         Deleted pod: test-app-59ccc59d8d-f9hdr
+22m         Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-7bgxt
+22m         Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 2; reason: memory resource utilization (percentage of request) above target
+22m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 1 to 2
+22m         Normal    Pulling                        pod/test-app-7c4bd87f8b-7bgxt          Pulling image "lkuzmicheva/pod-info-app"
+22m         Normal    Started                        pod/test-app-7c4bd87f8b-7bgxt          Started container test-app
+22m         Normal    Created                        pod/test-app-7c4bd87f8b-7bgxt          Created container: test-app
+22m         Normal    Pulled                         pod/test-app-7c4bd87f8b-7bgxt          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.709s (1.709s including waiting). Image size: 347424850 bytes.
+18m         Normal    Pulling                        pod/test-app-7c4bd87f8b-q8rv8          Pulling image "lkuzmicheva/pod-info-app"
+18m         Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 3; reason: memory resource utilization (percentage of request) above target
+18m         Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-q8rv8
+18m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 2 to 3
+18m         Normal    Pulled                         pod/test-app-7c4bd87f8b-q8rv8          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.604s (1.604s including waiting). Image size: 347424850 bytes.
+18m         Normal    Created                        pod/test-app-7c4bd87f8b-q8rv8          Created container: test-app
+18m         Normal    Started                        pod/test-app-7c4bd87f8b-q8rv8          Started container test-app
+15m         Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 4; reason: memory resource utilization (percentage of request) above target
+15m         Normal    Pulling                        pod/test-app-7c4bd87f8b-7jcdw          Pulling image "lkuzmicheva/pod-info-app"
+15m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 3 to 4
+15m         Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-7jcdw
+15m         Normal    Started                        pod/test-app-7c4bd87f8b-7jcdw          Started container test-app
+15m         Normal    Created                        pod/test-app-7c4bd87f8b-7jcdw          Created container: test-app
+15m         Normal    Pulled                         pod/test-app-7c4bd87f8b-7jcdw          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.447s (1.447s including waiting). Image size: 347424850 bytes.
+12m         Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 4 to 5
+12m         Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 5; reason: memory resource utilization (percentage of request) above target
+12m         Normal    Pulling                        pod/test-app-7c4bd87f8b-rqt4q          Pulling image "lkuzmicheva/pod-info-app"
+12m         Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-rqt4q
+12m         Normal    Started                        pod/test-app-7c4bd87f8b-rqt4q          Started container test-app
+12m         Normal    Created                        pod/test-app-7c4bd87f8b-rqt4q          Created container: test-app
+12m         Normal    Pulled                         pod/test-app-7c4bd87f8b-rqt4q          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.562s (1.562s including waiting). Image size: 347424850 bytes.
+8m11s       Normal    SuccessfulCreate               replicaset/test-app-7c4bd87f8b         Created pod: test-app-7c4bd87f8b-7mdbs
+8m11s       Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 6; reason: memory resource utilization (percentage of request) above target
+8m11s       Normal    ScalingReplicaSet              deployment/test-app                    Scaled up replica set test-app-7c4bd87f8b from 5 to 6
+8m10s       Normal    Pulling                        pod/test-app-7c4bd87f8b-7mdbs          Pulling image "lkuzmicheva/pod-info-app"
+8m9s        Normal    Created                        pod/test-app-7c4bd87f8b-7mdbs          Created container: test-app
+8m9s        Normal    Started                        pod/test-app-7c4bd87f8b-7mdbs          Started container test-app
+8m9s        Normal    Pulled                         pod/test-app-7c4bd87f8b-7mdbs          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.627s (1.627s including waiting). Image size: 347424850 bytes.
+7m50s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-76xcp
+7m50s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-7jcdw
+7m50s       Normal    Killing                        pod/test-app-7c4bd87f8b-7mdbs          Stopping container test-app
+7m50s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-rqt4q
+7m50s       Normal    Killing                        pod/test-app-7c4bd87f8b-rqt4q          Stopping container test-app
+7m50s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-7mdbs
+7m50s       Normal    ScalingReplicaSet              deployment/test-app                    Scaled down replica set test-app-7c4bd87f8b from 6 to 1
+7m50s       Normal    Killing                        pod/test-app-7c4bd87f8b-7jcdw          Stopping container test-app
+7m50s       Normal    Killing                        pod/test-app-7c4bd87f8b-fwpnq          Stopping container test-app
+7m50s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-7bgxt
+7m50s       Normal    Killing                        pod/test-app-7c4bd87f8b-7bgxt          Stopping container test-app
+7m50s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-fwpnq
+7m48s       Normal    Killing                        pod/test-app-7c4bd87f8b-q8rv8          Stopping container test-app
+7m48s       Normal    Pulled                         pod/test-app-76965d5454-76xcp          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.497s (1.497s including waiting). Image size: 347424850 bytes.
+7m48s       Normal    SuccessfulDelete               replicaset/test-app-7c4bd87f8b         Deleted pod: test-app-7c4bd87f8b-q8rv8
+7m26s       Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/test-app-hpa   invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+7m26s       Warning   FailedGetResourceMetric        horizontalpodautoscaler/test-app-hpa   failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+7m11s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-v5g5t
+7m11s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-dfbq8
+7m11s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-wt57p
+7m11s       Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 4; reason:
+7m9s        Normal    Pulled                         pod/test-app-76965d5454-dfbq8          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.345s (1.345s including waiting). Image size: 347424850 bytes.
+7m8s        Normal    Pulled                         pod/test-app-76965d5454-wt57p          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.272s (2.516s including waiting). Image size: 347424850 bytes.
+7m6s        Normal    Pulled                         pod/test-app-76965d5454-v5g5t          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.28s (3.794s including waiting). Image size: 347424850 bytes.
+6m56s       Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 6; reason:
+6m56s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-jkj68
+6m56s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-xwdxf
+6m54s       Normal    Pulled                         pod/test-app-76965d5454-jkj68          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.247s (1.247s including waiting). Image size: 347424850 bytes.
+6m53s       Normal    Pulled                         pod/test-app-76965d5454-xwdxf          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.251s (2.441s including waiting). Image size: 347424850 bytes.
+6m15s       Normal    Pulled                         pod/test-app-76965d5454-76xcp          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.438s (1.438s including waiting). Image size: 347424850 bytes.
+5m54s       Normal    Pulled                         pod/test-app-76965d5454-v5g5t          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.304s (1.304s including waiting). Image size: 347424850 bytes.
+3m11s       Normal    SuccessfulRescale              horizontalpodautoscaler/test-app-hpa   New size: 7; reason: memory resource utilization (percentage of request) above target
+3m11s       Normal    ScalingReplicaSet              deployment/test-app                    (combined from similar events): Scaled up replica set test-app-76965d5454 from 6 to 7
+3m11s       Normal    SuccessfulCreate               replicaset/test-app-76965d5454         Created pod: test-app-76965d5454-lm2lb
+3m9s        Normal    Pulled                         pod/test-app-76965d5454-lm2lb          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.453s (1.453s including waiting). Image size: 347424850 bytes.
+2m2s        Normal    Pulled                         pod/test-app-76965d5454-jkj68          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.608s (1.608s including waiting). Image size: 347424850 bytes.
+100s        Warning   BackOff                        pod/test-app-76965d5454-76xcp          Back-off restarting failed container test-app in pod test-app-76965d5454-76xcp_default(0f44bd1c-0e80-48f3-9f33-321ed5c37a1c)
+98s         Warning   BackOff                        pod/test-app-76965d5454-v5g5t          Back-off restarting failed container test-app in pod test-app-76965d5454-v5g5t_default(c1314b17-79b9-4838-9af9-882cd515f414)
+95s         Normal    Pulling                        pod/test-app-76965d5454-xwdxf          Pulling image "lkuzmicheva/pod-info-app"
+94s         Normal    Pulled                         pod/test-app-76965d5454-xwdxf          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.277s (1.277s including waiting). Image size: 347424850 bytes.
+94s         Normal    Started                        pod/test-app-76965d5454-xwdxf          Started container test-app
+94s         Normal    Created                        pod/test-app-76965d5454-xwdxf          Created container: test-app
+92s         Normal    Pulled                         pod/test-app-76965d5454-wt57p          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.251s (1.251s including waiting). Image size: 347424850 bytes.
+92s         Normal    Pulling                        pod/test-app-76965d5454-dfbq8          Pulling image "lkuzmicheva/pod-info-app"
+91s         Normal    Pulled                         pod/test-app-76965d5454-dfbq8          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.259s (1.498s including waiting). Image size: 347424850 bytes.
+91s         Normal    Created                        pod/test-app-76965d5454-dfbq8          Created container: test-app
+91s         Normal    Started                        pod/test-app-76965d5454-dfbq8          Started container test-app
+88s         Normal    Pulling                        pod/test-app-76965d5454-v5g5t          Pulling image "lkuzmicheva/pod-info-app"
+87s         Normal    Pulling                        pod/test-app-76965d5454-76xcp          Pulling image "lkuzmicheva/pod-info-app"
+86s         Normal    Started                        pod/test-app-76965d5454-v5g5t          Started container test-app
+86s         Normal    Created                        pod/test-app-76965d5454-v5g5t          Created container: test-app
+86s         Normal    Pulled                         pod/test-app-76965d5454-v5g5t          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.25s (1.25s including waiting). Image size: 347424850 bytes.
+85s         Normal    Created                        pod/test-app-76965d5454-76xcp          Created container: test-app
+85s         Normal    Started                        pod/test-app-76965d5454-76xcp          Started container test-app
+85s         Normal    Pulled                         pod/test-app-76965d5454-76xcp          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.24s (1.49s including waiting). Image size: 347424850 bytes.
+59s         Normal    Pulling                        pod/test-app-76965d5454-lm2lb          Pulling image "lkuzmicheva/pod-info-app"
+58s         Normal    Pulled                         pod/test-app-76965d5454-lm2lb          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.274s (1.274s including waiting). Image size: 347424850 bytes.
+58s         Normal    Created                        pod/test-app-76965d5454-lm2lb          Created container: test-app
+58s         Normal    Started                        pod/test-app-76965d5454-lm2lb          Started container test-app
+25s         Warning   BackOff                        pod/test-app-76965d5454-jkj68          Back-off restarting failed container test-app in pod test-app-76965d5454-jkj68_default(cf9aec86-0fa8-410b-9830-65e69b5fdff5)
+22s         Warning   BackOff                        pod/test-app-76965d5454-wt57p          Back-off restarting failed container test-app in pod test-app-76965d5454-wt57p_default(682a0229-a7ed-4c4e-84c3-c48bf67fb85b)
+14s         Normal    Pulling                        pod/test-app-76965d5454-jkj68          Pulling image "lkuzmicheva/pod-info-app"
+12s         Normal    Started                        pod/test-app-76965d5454-jkj68          Started container test-app
+12s         Normal    Created                        pod/test-app-76965d5454-jkj68          Created container: test-app
+12s         Normal    Pulled                         pod/test-app-76965d5454-jkj68          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.305s (1.305s including waiting). Image size: 347424850 bytes.
+10s         Normal    Pulling                        pod/test-app-76965d5454-wt57p          Pulling image "lkuzmicheva/pod-info-app"
+8s          Normal    Pulled                         pod/test-app-76965d5454-wt57p          Successfully pulled image "lkuzmicheva/pod-info-app" in 1.25s (1.25s including waiting). Image size: 347424850 bytes.
+8s          Normal    Started                        pod/test-app-76965d5454-wt57p          Started container test-app
+8s          Normal    Created                        pod/test-app-76965d5454-wt57p          Created container: test-app
